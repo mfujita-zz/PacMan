@@ -1,0 +1,4 @@
+- Crie um repositorio chamado PacMan.
+- Clone este repositório no seu computador
+- Copie a pasta de template disponibilizado pelo professor para seu repositório
+- Suba tudo no Git
