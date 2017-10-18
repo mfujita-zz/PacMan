@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Demolidor : MonoBehaviour 
 {
+    public Animator animaPacMan;
+
 	void Start () 
     {
 		
