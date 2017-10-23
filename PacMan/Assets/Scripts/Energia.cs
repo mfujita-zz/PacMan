@@ -18,6 +18,8 @@ public class Energia : MonoBehaviour
         if (coisa.name == "pacman")
         {
             Destroy(gameObject);
+            gameObject.GetComponent<SpriteRenderer>().
+
         }
     }
 }
