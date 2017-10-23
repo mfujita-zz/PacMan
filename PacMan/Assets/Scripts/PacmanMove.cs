@@ -5,7 +5,6 @@ using UnityEngine;
 public class PacmanMove : MonoBehaviour 
 {
     public float speed = 0.01f;
-    Vector2 dest = Vector2.zero;
     public Animator animator;
     	
 	void Start () 

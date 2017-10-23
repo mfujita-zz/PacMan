@@ -8,6 +8,11 @@ public class Ghost : MonoBehaviour
     int i=0;
     public float speed = 0.3f;
 
+    void Start()
+    {
+        
+    }
+
     void FixedUpdate () 
     {
         if (transform.position != destino[i].position)
@@ -18,7 +23,7 @@ public class Ghost : MonoBehaviour
         else
         {
             i = (i + 1) % destino.Length;
-        }       
+        }
 
         Vector2 dir = destino[i].position - transform.position;
         GetComponent<Animator>().SetFloat("dirX", dir.x);

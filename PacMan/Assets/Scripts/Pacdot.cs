@@ -21,6 +21,7 @@ public class Pacdot : MonoBehaviour {
         if (co.name == "pacman")
         {
             Destroy(gameObject);
+            Pontuacao.points++;
         }
     }
 }
